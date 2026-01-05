@@ -51,7 +51,7 @@ The index.html file is used only as an entry page for GitHub Pages.
 ## 🌐 Live Output (GitHub Pages)
 (Replace with actual link when submitted)
 
-https://peternayak.github.io/REPOSITORY-peterHTMLlabrecord/
+https://peternayak.github.io/peterHTMLlabrecord/
 
 ---
 

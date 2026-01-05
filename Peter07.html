@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced CSS Box Model Example</title>
+  <style>
+    body {
+      background: #f0f0f0 url('https://via.placeholder.com/1200x300') no-repeat top center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .box {
+      width: 350px;
+      height: 200px;
+      background: rgba(255,255,255,0.9);
+      border: 5px solid #1976d2;
+      margin: 40px auto;
+      padding: 40px 20px 20px 50px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+      border-radius: 16px;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 0;
+      color: #222;
+    }
+    .box p {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>CSS Box Model Example</h2>
+    <p>
+      This box shows <b>padding</b> (space inside the border), a colored <b>border</b>,
+      <b>margin</b> (space outside), and uses a <b>background image</b> on the page.<br>
+      The rounded corners and shadow are added for style.<br>
+      Try resizing the <b>window</b> to see how the background behaves!
+    </p>
+  </div>
+</body>
+</html>
